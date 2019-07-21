@@ -1,3 +1,59 @@
+#React-App-Practice
+
+##A Solution for an intro to React lesson based on the following mock-up.
+
+![React](https://www.import.io/wp-content/uploads/2017/10/React-logo-1.png)
+
+# [Create React App](https://facebook.github.io/create-react-app)
+
+![](my-blog-1.png)
+
+## Start Here
+
+Inside this repo, run the following command to create a new react app:
+
+```sh
+npx create-react-app my-blog
+```
+
+> `npx` is a tool for running JavaScript npm modules that are intended for use as commands.
+
+Use `npm start` to start a server that will serve your new React application:
+
+```bash
+cd my-blog
+npm start
+```
+
+You can view the app at `http://localhost:3000`
+
+> Note: If you ever need to stop the server, you can hit `ctrl-c` in the terminal window.
+
+Your job will be to implement the following:
+
+1. A Header component
+2. A Post component
+3. A Footer component
+
+Your App component will have three children: Header, Post, and the Footer component.
+The App component will call the Post component with props: title and description.
+If you finish early have your App component render multiple Posts.
+
+**Required**
+
+- Your app should resemble the mockup as closely as possible.
+
+**Tips:**
+
+- Use http://generator.lorem-ipsum.info/_latin to generate bogus text, useful for mockups.
+- Use Flexbox
+
+**Bonus**
+
+- Create a `Comment` component that the `Post` component calls
+  - Pass in a "comment" prop into the `Post` component that gets passed down into the `Comment` component
+  - Use the lorem-ipsum generator to create static text for the comment prop
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
