@@ -1,6 +1,6 @@
-#React-App-Practice
+# React-App-Practice
 
-##A Solution for an intro to React lesson based on the following mock-up.
+## A Solution for an intro to React lesson based on the following mock-up.
 
 ![React](https://www.import.io/wp-content/uploads/2017/10/React-logo-1.png)
 
