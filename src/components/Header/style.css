@@ -1,0 +1,22 @@
+.c-header__container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(106, 179, 228);
+}
+.c-header__container h1 {
+  padding-left: 20px;
+}
+
+.c-header__container ul {
+  list-style: none;
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 10px;
+}
+.c-header__container li {
+  font-size: 20px;
+}
